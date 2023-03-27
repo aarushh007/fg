@@ -1,0 +1,24 @@
+.navbar {
+    height: 100vh;
+    width: 20%;
+    background-color: rgb(47, 47, 47);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   position: fixed;
+   overflow: auto;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+}
+
+.end {
+    margin-top: auto;
+}
